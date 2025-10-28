@@ -1,0 +1,18 @@
+.section_img{
+    padding-top: 94px;
+    &_headers{
+        font-family: "Roboto", sans-serif;
+        font-weight:700;
+        font-size: 36px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    &_thre{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 30px;
+        padding-top: 50px;
+    }
+}

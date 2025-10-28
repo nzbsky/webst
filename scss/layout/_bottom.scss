@@ -1,0 +1,70 @@
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 8px;
+    padding-top: 94px;
+    &_one{
+        background-color:rgba(245, 244, 250, 1);
+        border-radius: 4px;
+        border-color:rgba(245, 244, 250, 1) ;
+        width: 73px;
+        height: 38px;
+        font-size: 16px;
+    }
+    &_two{
+        height: 38px;
+        font-size: 16px;
+        border-color:rgba(245, 244, 250, 1) ;
+        background-color:rgba(245, 244, 250, 1);
+        border-radius: 4px;
+    }
+    &_thre{
+        height: 38px;
+        font-size: 16px;
+        border-color:rgba(245, 244, 250, 1) ;
+        background-color:rgba(245, 244, 250, 1);
+        border-radius: 4px;
+    }
+    &_fo{
+        height: 38px;
+        font-size: 16px;
+        border-color:rgba(245, 244, 250, 1) ;
+        background-color:rgba(245, 244, 250, 1);
+        border-radius: 4px;
+    }
+    &_five{
+        height: 38px;
+        font-size: 16px;
+        border-color:rgba(245, 244, 250, 1) ;
+        background-color:rgba(245, 244, 250, 1);
+        border-radius: 4px;
+    }
+}
+
+.bottom_one:hover{
+    cursor: pointer;
+   background-color:  rgba(33, 150, 243, 1);
+   color: white;
+}
+
+.bottom_two:hover{
+    cursor: pointer;
+   background-color:  rgba(33, 150, 243, 1);
+   color: white;
+}
+.bottom_thre:hover{
+    cursor: pointer;
+   background-color:  rgba(33, 150, 243, 1);
+   color: white;
+}
+.bottom_fo:hover{
+    cursor: pointer;
+   background-color:  rgba(33, 150, 243, 1);
+   color: white;
+}
+.bottom_five:hover{
+    cursor: pointer;
+   background-color:  rgba(33, 150, 243, 1);
+   color: white;
+}

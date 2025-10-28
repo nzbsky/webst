@@ -1,0 +1,303 @@
+.portfolio_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 34px;
+    column-gap: 30px;
+    &_one{
+        width: 370px;
+        height: 404px;
+        
+        border-radius: 1px;
+        border: 1px solid rgb(255, 255, 255);
+        border-color:rgba(238, 238, 238, 1);
+        background-size: contain;
+
+        &_one{
+            width:370px ;
+            height:294px ;
+        }
+        &_text{
+            padding-left: 24px;
+            padding-top: 20px;
+         &_logo{
+            font-size: 18px;
+          font-family: "Roboto", sans-serif;
+ font-weight: 700;
+ font-style: normal;
+         }
+         &_txt{
+            padding-top: 4px;
+font-size: 14px;
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-style: normal;
+color: rgba(117, 117, 117, 1);
+         }
+        }
+    }
+    &_two{
+        width: 370px;
+        height: 404px;
+        border-radius: 1px;
+        border: 1px solid rgb(255, 255, 255);
+        border-color:rgba(238, 238, 238, 1);
+        &_img{
+            width: 370px;
+            height: 294px;
+        }
+        &_text{
+            padding-left: 24px;
+            padding-top: 20px;
+         &_logo{
+            font-size: 18px;
+          font-family: "Roboto", sans-serif;
+ font-weight: 700;
+ font-style: normal;
+         }
+         &_txt{
+            padding-top: 4px;
+font-size: 14px;
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-style: normal;
+color: rgba(117, 117, 117, 1);
+         }
+        }
+    }
+    &_thre{
+        width: 370px;
+        height:404px ;
+        border-radius: 1px;
+        border: 1px solid rgb(255, 255, 255);
+        border-color:rgba(238, 238, 238, 1);
+        &_img{
+            width:370px ;
+            height: 294px;
+        }
+        &_text{
+            padding-left: 24px;
+            padding-top: 20px;
+         &_logo{
+            font-size: 18px;
+          font-family: "Roboto", sans-serif;
+ font-weight: 700;
+ font-style: normal;
+         }
+         &_txt{
+            padding-top: 4px;
+font-size: 14px;
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-style: normal;
+color: rgba(117, 117, 117, 1);
+         }
+        }
+    }
+
+}
+.portfolio_two{
+   display: flex;
+   align-items: center;
+   column-gap: 30px;
+   padding-left: 174px;
+   position: relative;
+   top: 30px;
+    width: 370px;
+    height: 404px;
+    border-radius: 1px;
+    
+        border-color:rgba(238, 238, 238, 1);
+        &_oimg{
+            width: 370px;
+            height: 294px;
+        }
+        &_text{
+            padding-left: 24px;
+            padding-top: 20px;
+         &_logo{
+            font-size: 18px;
+          font-family: "Roboto", sans-serif;
+ font-weight: 700;
+ font-style: normal;
+         }
+         &_txt{
+            padding-top: 4px;
+font-size: 14px;
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-style: normal;
+color: rgba(117, 117, 117, 1);
+         }
+        }
+
+}
+.portfolio_two_twoo{
+   
+    width: 370px;
+    height: 404px;
+    border-radius: 1px;
+        border: 1px solid rgb(255, 255, 255);
+        border-color:rgba(238, 238, 238, 1);
+        &_img{
+            width: 370px;
+            height: 294px;
+        }
+        &_text{
+            padding-left: 24px;
+            padding-top: 20px;
+         &_logo{
+            font-size: 18px;
+          font-family: "Roboto", sans-serif;
+ font-weight: 700;
+ font-style: normal;
+         }
+         &_txt{
+            padding-top: 4px;
+font-size: 14px;
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-style: normal;
+color: rgba(117, 117, 117, 1);
+         }
+        }
+}
+.portfolio_two_div{
+    width: 370px;
+    height: 404px;
+    border-radius: 1px;
+    border: 1px solid rgb(255, 255, 255);
+        border-color:rgba(238, 238, 238, 1); 
+}
+.portfolio_two_thre{
+    width: 370px;
+    height: 404px;
+    border-radius: 1px;
+    border: 1px solid rgb(255, 255, 255);
+        border-color:rgba(238, 238, 238, 1); 
+        &_img{
+            width: 370px;
+            height: 294px;
+        } 
+        &_text{
+            padding-left: 24px;
+            padding-top: 20px;
+         &_logo{
+            font-size: 18px;
+          font-family: "Roboto", sans-serif;
+ font-weight: 700;
+ font-style: normal;
+         }
+         &_txt{
+            padding-top: 4px;
+font-size: 14px;
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-style: normal;
+color: rgba(117, 117, 117, 1);
+         }
+        }
+}
+
+.portfolio_close{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+    padding-top: 60px;
+    &_info{
+        width: 370px;
+        height: 404px;
+        border-radius: 1px;
+        border: 1px solid rgb(255, 255, 255);
+            border-color:rgba(238, 238, 238, 1); 
+            &_img{
+                width: 370px;
+                height: 294px;
+            }
+            &_text{
+                padding-left: 24px;
+                padding-top: 20px;
+             &_logo{
+                font-size: 18px;
+              font-family: "Roboto", sans-serif;
+     font-weight: 700;
+     font-style: normal;
+             }
+             &_txt{
+                padding-top: 4px;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(117, 117, 117, 1);
+             }
+            }
+            
+    }
+    
+    &_inf{
+       
+        width: 370px;
+        height: 404px;
+        border-radius: 1px;
+        border: 1px solid rgb(255, 255, 255);
+            border-color:rgba(238, 238, 238, 1); 
+            &_im{
+    
+                width: 370px;
+                height: 294px; 
+            }
+            &_tex{
+                padding-left: 24px;
+                padding-top: 20px;
+             &_logo{
+                font-size: 18px;
+              font-family: "Roboto", sans-serif;
+     font-weight: 700;
+     font-style: normal;
+             }
+             &_txt{
+                padding-top: 4px;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(117, 117, 117, 1);
+             }
+            }
+
+    }
+    &_infi{
+       
+        width: 370px;
+        height: 404px;
+        border-radius: 1px;
+        border: 1px solid rgb(255, 255, 255);
+            border-color:rgba(238, 238, 238, 1); 
+            &_imi{
+                width: 370px;
+                height: 294px; 
+            }
+            &_texi{
+                padding-left: 24px;
+                padding-top: 20px;
+             &_logo{
+                font-size: 18px;
+              font-family: "Roboto", sans-serif;
+     font-weight: 700;
+     font-style: normal;
+             }
+             &_txt{
+                padding-top: 4px;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(117, 117, 117, 1);
+             }
+            }
+    }
+
+        
+}      
