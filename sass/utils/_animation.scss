@@ -1,0 +1,37 @@
+@keyframes no__active {
+    0% {
+      color: $black-color;
+    }
+    50% {
+      color: $blue-color;
+    }
+    100% {
+      color: $black-color ;
+    }
+  }
+  @keyframes clients__animation {
+    0% {
+      border-color: $grey-color;
+    }
+    50% {
+      border-color: $blue-color;
+    }
+    100% {
+      border-color: $grey-color;
+    }
+  }
+  @keyframes clients__animation__svg {
+    0% {
+      fill: $grey-color;
+    }
+    50% {
+      fill: $blue-color;
+    }
+    100% {
+      fill: $grey-color;
+    }
+  }
+  .animate__zoomInDown {
+    animation-duration: 1s;
+  }
+  

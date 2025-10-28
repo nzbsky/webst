@@ -1,0 +1,243 @@
+
+.header-contact__item--bib {
+  width: 142px;
+  height: 16px;
+}
+.header__logo {
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: calc(31 / 26);
+  color: $logo-black;
+  &--blue {
+    color: $blue-color;
+  }
+
+  &--black {
+    color: $logo-black;
+  }
+  @media screen and (min-width: $desktop-adapt) {
+    margin-right: 93px;
+  }
+}
+
+.header-nav,
+.header-nav__list,
+.header-contact {
+  display: flex;
+  align-items: center;
+}
+.header-nav {
+  @media screen and (min-width: $desktop-adapt) {
+
+  
+  }
+}
+
+.header-contact {
+  @media screen and (min-width: $tablet-adapt) {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-right: 17px;
+ align-items: center;
+
+
+}
+@media screen and (min-width: $desktop-adapt){
+  flex-direction: row;
+  margin-left: 315px ;
+  margin-right: 0px ;
+  justify-self: flex-end;
+}
+  }
+  .header-contact__item--bib {
+    @media screen and (min-width: $tablet-adapt) {
+    margin-top: 10px;}
+    @media screen and (min-width: $desktop-adapt) {
+      margin: 0;
+      width: 142px;
+    }
+  }
+  .header-contact__item--envelope {
+    @media screen and (min-width: $desktop-adapt) {
+      width: 161px;
+    }
+  }
+
+.header { 
+  margin: 0 auto;
+  overflow: hidden;
+
+  @media screen and (min-width: $tablet-adapt) {
+    height: 80px;
+    width: 768px;
+  };
+  @media screen and (min-width: $desktop-adapt) {
+    width: 1200px;
+
+  };
+  
+  
+
+  display: flex;
+  align-items: center;  
+
+  &__burgermenu {
+    @media screen and (min-width: $tablet-adapt) {
+      display: none;
+    }
+    display: flex;
+    align-items: center;
+
+  }
+  &__burgermenu--icon {
+
+    width: 24px;
+
+
+    height: 16px;
+    fill: $black-color;
+  }
+  &--flex {
+
+
+  
+      
+  width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media screen and (min-width: $mobile-adapt) {
+      width: 480px;
+
+
+    }
+    @media screen and (min-width: $tablet-adapt) {
+width: 768px;
+    }
+    @media screen and (min-width: $desktop-adapt) {
+      width: 1200px;
+
+      
+    }
+  }
+  
+
+}
+
+header li {
+
+    display: none;
+    
+
+  @media screen and (min-width: $tablet-adapt) 
+  {
+    display: block;
+  }
+
+}
+
+
+  
+  
+  header li a:hover {
+  color: $blue-color;
+}
+
+
+
+
+.header-contact__link {
+  display: flex;
+
+  align-items: center;
+  color:  $grey-color;
+  line-height: calc(16 / 14);
+  font-size: 14px;
+  font-weight: 500;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover svg {
+    fill: $blue-color;
+  }
+}
+
+
+
+
+
+.header-nav__item:not(:last-child) {
+  margin-right: 50px;
+
+}
+
+.header-contact__item:not(:last-child) {
+  @media screen and (min-width: $desktop-adapt) {
+    margin-right: 30px;
+  }
+
+}
+
+
+
+.header-contact__icon {
+  margin-right: 10px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &--envelope {
+    width: 16px;
+    height: 12px;
+    fill: $grey-color;
+
+  }
+  &--smartphone {
+    width: 10px;
+    height: 16px;
+    fill: $grey-color;
+  }
+}
+
+
+
+
+
+
+
+.header-nav__link {
+@extend %nav-link;
+  
+  &:hover::after {
+    transform: translateY(0%);
+  }
+  &:not(.header-nav__link--active)::after {
+@extend %nav-link-no-active-after;
+  }
+  &:not(.header-nav__link--active):hover::after {
+    transform: translateY(0);
+  }
+
+  &--no-active:hover {
+    animation-name: no__active;
+    animation-duration: 1200ms;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }
+  
+  
+  }
+
+.header-nav__link--active {
+  color: $blue-color;
+  position: relative;
+  
+  &::after  {
+ @include nav-link-active (-1.5px, 48px)
+}
+  
+}
+
+
+
+
+

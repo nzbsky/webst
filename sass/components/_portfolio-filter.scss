@@ -1,0 +1,47 @@
+.filter-list__btn {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: $our-team;
+    color: $black-color;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: calc(26 / 16);
+    padding: 6px 22px;
+    border-radius: 4px;
+    
+    
+    &:hover {
+      background-color: $blue-color;
+      color: $white-color;
+    
+      box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+        0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+  
+    }
+    
+  
+}
+  
+  .filter-list {
+    display: flex;
+      @media screen and (min-width: 448px) {
+        width: 326px;
+      }
+      @media screen and (min-width: $tablet-adapt) {
+        width: 575px;
+            justify-content: center;
+            margin: 0 auto;
+            margin-bottom: 30px;
+      }
+      @media screen and (min-width: $desktop-adapt) {
+        margin-bottom: 50px;
+      }
+
+    justify-content: flex-start ;
+
+      margin-bottom: 40px;
+      flex-wrap: wrap;
+      row-gap: 15px;
+      column-gap: 8px;
+  }

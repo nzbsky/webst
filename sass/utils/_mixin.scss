@@ -1,0 +1,11 @@
+@mixin nav-link-active ($left, $width) {
+    content: " ";
+    display:  block;
+    width: $width;
+    left: $left;
+    height: 4px;
+    border-radius: 2px;
+    background: $blue-color;
+    position: absolute;
+    top: calc(100% + 27px);
+}
