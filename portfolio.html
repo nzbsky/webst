@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Портфоліо</title>
+    <title>WebStudio - Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -18,36 +19,43 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
-<link rel="stylesheet" href="./css/main.min.css">
+    <link rel="stylesheet" href="./css/main.min.css" />
     <body>
       <header class="portfolio-header header">
         <div class="container header--flex">
-          <a
-            href="index.html"
-            class="header__logo"
-          >
+          <a href="index.html" class="header__logo">
             <span class="header__logo--blue">Web</span
             ><span class="header__logo--black">Studio</span></a
           >
           <nav class="header-nav">
             <ul class="header-nav__list">
               <li class="header-nav__item">
-                <a href="./index.html" class="header-nav__link header-nav__link--no-active">Студія</a>
+                <a
+                  href="./index.html"
+                  class="header-nav__link header-nav__link--no-active"
+                  >Студія</a
+                >
               </li>
               <li class="header-nav__item">
-                <a href="./portfolio.html" class="header-nav__link header-nav__link--active portfolio-header-nav__link--active"
+                <a
+                  href="./portfolio.html"
+                  class="header-nav__link header-nav__link--active portfolio-header-nav__link--active"
                   >Портфоліо</a
                 >
               </li>
               <li class="header-nav__item">
-                <a href="" class="header-nav__link header-nav__link--no-active">Контакти</a>
+                <a href="" class="header-nav__link header-nav__link--no-active"
+                  >Контакти</a
+                >
               </li>
             </ul>
           </nav>
           <ul class="header-contact">
             <li class="header-contact__item">
               <a href="mailto:info@devstudio.com" class="header-contact__link"
-                ><svg class="header-contact__icon header-contact__icon--envelope">
+                ><svg
+                  class="header-contact__icon header-contact__icon--envelope"
+                >
                   <use href="./img/sprite.svg#envelope"></use>
                 </svg>
                 info@devstudio.com</a
@@ -55,7 +63,9 @@
             </li>
             <li class="header-contact__item header-contact__item--bib">
               <a href="tel:+380961111111" class="header-contact__link">
-                <svg class="header-contact__icon header-contact__icon--smartphone">
+                <svg
+                  class="header-contact__icon header-contact__icon--smartphone"
+                >
                   <use href="./img/sprite.svg#smartphone"></use>
                 </svg>
                 +38 096 111 11 11</a
@@ -63,17 +73,18 @@
             </li>
           </ul>
           <button
-          class="menu-toggle js-open-menu"
-          aria-expanded="false"
-          aria-controls="mobile-menu"
-        >
-          <svg class="header__burgermenu header__burgermenu--icon"  aria-expanded="false"
-            aria-controls="mobile-menu">
-          <use href="./img/sprite.svg#burgermenu"></use>
-          
-            
-          </svg>
-        </button>
+            class="menu-toggle js-open-menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+          >
+            <svg
+              class="header__burgermenu header__burgermenu--icon"
+              aria-expanded="false"
+              aria-controls="mobile-menu"
+            >
+              <use href="./img/sprite.svg#burgermenu"></use>
+            </svg>
+          </button>
         </div>
       </header>
       <main class="portfolio-main">
@@ -102,6 +113,10 @@
                 <a href="#!" class="portfolio__link">
                   <div class="portfolio__link--box">
                     <img
+                      srcset="
+                        ./img/portfolio-img/macbook-air.jpg     1x,
+                        ./img/portfolio-img/macbook-air@2x.jpeg 2x
+                      "
                       src="./img/portfolio-img/macbook-air.jpg"
                       class="portfolio__img"
                       alt="Картинка"
@@ -125,7 +140,11 @@
                 <a href="#!" class="portfolio__link">
                   <div class="portfolio__link--box">
                     <img
-                      src="./img/portfolio-img/basketbal.jpg"
+                      srcset="
+                        ./img/portfolio-img/basketball.jpg     1x,
+                        ./img/portfolio-img/basketball@2x.jpeg 2x
+                      "
+                      src="./img/portfolio-img/basketball.jpg"
                       class="portfolio__img"
                       alt="Картинка"
                     />
@@ -150,6 +169,10 @@
                 <a href="#!" class="portfolio__link">
                   <div class="portfolio__link--box">
                     <img
+                      srcset="
+                        ./img/portfolio-img/seafood.jpg     1x,
+                        ./img/portfolio-img/seafood@2x.jpeg 2x
+                      "
                       src="./img/portfolio-img/seafood.jpg"
                       class="portfolio__img"
                       alt="Картинка"
@@ -173,6 +196,10 @@
                 <a href="#!" class="portfolio__link">
                   <div class="portfolio__link--box">
                     <img
+                      srcset="
+                        ./img/portfolio-img/headphones.jpg     1x,
+                        ./img/portfolio-img/headphones@2x.jpeg 2x
+                      "
                       src="./img/portfolio-img/headphones.jpg"
                       class="portfolio__img"
                       alt="Картинка"
@@ -196,6 +223,10 @@
                 <a href="#!" class="portfolio__link">
                   <div class="portfolio__link--box">
                     <img
+                      srcset="
+                        ./img/portfolio-img/boxes.jpg     1x,
+                        ./img/portfolio-img/boxes@2x.jpeg 2x
+                      "
                       src="./img/portfolio-img/boxes.jpg"
                       class="portfolio__img"
                       alt="Картинка"
@@ -219,6 +250,10 @@
                 <a href="#!" class="portfolio__link">
                   <div class="portfolio__link--box">
                     <img
+                      srcset="
+                        ./img/portfolio-img/mac.jpg     1x,
+                        ./img/portfolio-img/mac@2x.jpeg 2x
+                      "
                       src="./img/portfolio-img/mac.jpg"
                       class="portfolio__img"
                       alt="Картинка"
@@ -242,6 +277,10 @@
                 <a href="#!" class="portfolio__link">
                   <div class="portfolio__link--box">
                     <img
+                      srcset="
+                        ./img/portfolio-img/limited-edition.jpg     1x,
+                        ./img/portfolio-img/limited-edition@2x.jpeg 2x
+                      "
                       src="./img/portfolio-img/limited-edition.jpg"
                       class="portfolio__img"
                       alt="Картинка"
@@ -265,6 +304,10 @@
                 <a href="#!" class="portfolio__link">
                   <div class="portfolio__link--box">
                     <img
+                      srcset="
+                        ./img/portfolio-img/labeltag.jpg     1x,
+                        ./img/portfolio-img/labeltag@2x.jpeg 2x
+                      "
                       src="./img/portfolio-img/labeltag.jpg"
                       class="portfolio__img"
                       alt="Картинка"
@@ -288,6 +331,10 @@
                 <a href="#!" class="portfolio__link">
                   <div class="portfolio__link--box">
                     <img
+                      srcset="
+                        ./img/portfolio-img/grow-business.jpg     1x,
+                        ./img/portfolio-img/grow-business@2x.jpeg 2x
+                      "
                       src="./img/portfolio-img/grow-business.jpg"
                       class="portfolio__img"
                       alt="Картинка"
@@ -314,60 +361,72 @@
       <footer class="footer">
         <div class="container footer--container">
           <div class="footer--tablet">
-          <div class="footer--flex">
-            <a href="./index.html" class="footer__logo"
-              ><span class="footer__logo--blue">Web</span>Studio</a
-            >
-            <address class="footer__address">
-              <ul class="footer-contact">
-                <li class="footer-contact__location">г. Київ, пр-т Лесі Українки, 26</li>
-                <li class="footer-contact__location">
-                  <a href="mailto:info@devstudio.com" class="footer-contact__link"
-                    >info@devstudio.com</a
-                  >
+            <div class="footer--flex">
+              <a href="./index.html" class="footer__logo"
+                ><span class="footer__logo--blue">Web</span>Studio</a
+              >
+              <address class="footer__address">
+                <ul class="footer-contact">
+                  <li class="footer-contact__location">
+                    г. Київ, пр-т Лесі Українки, 26
+                  </li>
+                  <li class="footer-contact__location">
+                    <a
+                      href="mailto:info@devstudio.com"
+                      class="footer-contact__link"
+                      >info@devstudio.com</a
+                    >
+                  </li>
+                  <li class="footer__location">
+                    <a href="tel:+380961111111" class="footer-contact__link">
+                      +38 096 111 11 11</a
+                    >
+                  </li>
+                </ul>
+              </address>
+            </div>
+            <div class="subscribe">
+              <h3 class="subscribe__title">приєднуйтесь</h3>
+              <ul class="subscribe-list">
+                <li class="subscribe-list__item">
+                  <a href="#!" class="subscribe-list__link">
+                    <svg
+                      class="subscribe-list__icon subscribe-list__icon--instagram"
+                    >
+                      <use href="./img/sprite.svg#instagram"></use>
+                    </svg>
+                  </a>
                 </li>
-                <li class="footer__location">
-                  <a href="tel:+380961111111" class="footer-contact__link">
-                    +38 096 111 11 11</a
-                  >
+                <li class="subscribe-list__item">
+                  <a href="#!" class="subscribe-list__link">
+                    <svg
+                      class="subscribe-list__icon subscribe-list__icon--twitter"
+                    >
+                      <use href="./img/sprite.svg#twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="subscribe-list__item">
+                  <a href="#!" class="subscribe-list__link">
+                    <svg
+                      class="subscribe-list__icon subscribe-list__icon--facebook"
+                    >
+                      <use href="./img/sprite.svg#facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="subscribe-list__item">
+                  <a href="#!" class="subscribe-list__link">
+                    <svg
+                      class="subscribe-list__icon subscribe-list__icon--linkedin"
+                    >
+                      <use href="./img/sprite.svg#linkedin"></use>
+                    </svg>
+                  </a>
                 </li>
               </ul>
-            </address>
+            </div>
           </div>
-          <div class="subscribe">
-            <h3 class="subscribe__title">приєднуйтесь</h3>
-            <ul class="subscribe-list">
-              <li class="subscribe-list__item">
-                <a href="#!" class="subscribe-list__link">
-                  <svg class="subscribe-list__icon subscribe-list__icon--instagram">
-                    <use href="./img/sprite.svg#instagram"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="subscribe-list__item">
-                <a href="#!" class="subscribe-list__link">
-                  <svg class="subscribe-list__icon subscribe-list__icon--twitter">
-                    <use href="./img/sprite.svg#twitter"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="subscribe-list__item">
-                <a href="#!" class="subscribe-list__link">
-                  <svg class="subscribe-list__icon subscribe-list__icon--facebook">
-                    <use href="./img/sprite.svg#facebook"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="subscribe-list__item">
-                <a href="#!" class="subscribe-list__link">
-                  <svg class="subscribe-list__icon subscribe-list__icon--linkedin">
-                    <use href="./img/sprite.svg#linkedin"></use>
-                  </svg>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
           <div class="newsletter">
             <h3 class="newsletter__title">Підпишіться на розсилку</h3>
             <form class="newsletter__form">
@@ -387,38 +446,78 @@
       </footer>
 
       <div class="menu-container js-menu-container" id="mobile-menu">
-      <button class="menu-toggle js-close-menu">
-        <svg class="mobile-close-btn"
-          fill="currentColor"
-          viewBox="0 0 20 20"
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-        >
-          <path
-            fill-rule="evenodd"
-            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-            clip-rule="evenodd"
-          ></path>
-        </svg>
-      </button>
+        <div class="mobile-flex">
+          <button class="menu-toggle js-close-menu">
+            <svg
+              class="mobile-close-btn"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+            >
+              <path
+                class="mobile-close-btn__path"
+                fill-rule="evenodd"
+                d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </button>
+        </div>
 
-      <ul class="mobile-menu">
-        <li class="mobile-menu__item"><a class="mobile-menu__item--link" href="./index.html" class="link">Студія</a></li>
-        <li class="mobile-menu__item"><a class="mobile-menu__item--link--current" href="./portfolio.html" class="link">Портфоліо</a></li>
-        <li class="mobile-menu__item"><a class="mobile-menu__item--link" href="" class="link">Контакти</a></li>
-      </ul>
-    </div>
-
-      
-    <script src="./js/modal.js"></script>
-    <script src="./js/mobile-menu.js"></script>
-    <script
-      defer
-      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
-      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
-      crossorigin="anonymous"
-    ></script>
+        <ul class="mobile-menu">
+          <li class="mobile-menu__item">
+            <a class="mobile-menu__item--link" href="./index.html" class="link"
+              >Студія</a
+            >
+          </li>
+          <li class="mobile-menu__item">
+            <a
+              class="mobile-menu__item--link--current"
+              href="./portfolio.html"
+              class="link"
+              >Портфоліо</a
+            >
+          </li>
+          <li class="mobile-menu__item">
+            <a
+              class="mobile-menu__item--link mobile-margin"
+              href=""
+              class="link"
+              >Контакти</a
+            >
+          </li>
+          <li class="mobile-menu__item">
+            <a
+              href="tel:+380961111111"
+              class="mobile-menu__item--nav mobile-tel"
+              >+38 096 111 11 11</a
+            >
+          </li>
+          <li class="mobile-menu__item">
+            <a
+              href="mailto:info@devstudio.com"
+              class="mobile-menu__item--nav mobile-mail"
+              >info@devstudio.com</a
+            >
+          </li>
+          <a href="./index.html" class="mobile-media--gap">Instagram</a>
+          <a href="./index.html" class="mobile-media">Twitter</a>
+          <a href="./index.html" class="mobile-media">Facebook</a>
+          <a href="./index.html" class="mobile-media">LinkedIn</a>
+        </ul>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+      <script src="./js/darkmode.js"></script>
+      <script src="./js/modal.js"></script>
+      <script src="./js/mobile-menu.js"></script>
+      <script
+        defer
+        src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+        integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+        crossorigin="anonymous"
+      ></script>
     </body>
   </head>
 </html>

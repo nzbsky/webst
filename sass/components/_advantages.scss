@@ -87,16 +87,20 @@
   }
 
   &--details::before {
+    isolation: isolate;
     background-image: url(../img/studio-img/antena.svg);
   }
   &--punctuality::before {
+    isolation: isolate;
     background-image: url(../img/studio-img/timer.svg);
   }
   
   &--planning::before {
+    isolation: isolate;
     background-image: url(../img/studio-img/graphik.svg);
   }
   &--technologies::before {
+    isolation: isolate;
     background-image: url(../img/studio-img/astronaut.svg);
   }
 }

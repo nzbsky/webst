@@ -16,6 +16,7 @@
 
 }
 .clients-container {
+  
     @media screen and (min-width: $mobile-adapt) {
         width: 480px;
         
@@ -29,6 +30,7 @@
     }
 }
 .clients__item {
+  isolation: isolate;
   border: 1px solid rgb(175, 177, 184);
   border-radius: 4px;
   flex-basis: calc((100% - 30px)/2);
@@ -77,6 +79,7 @@
 
 
 .clients__heading {
+  
     @extend %heading;
 
 

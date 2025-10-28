@@ -19,19 +19,16 @@
   @media screen and (min-width: $desktop-adapt) {
     margin-right: 93px;
   }
+
+  
 }
+
 
 .header-nav,
 .header-nav__list,
 .header-contact {
   display: flex;
   align-items: center;
-}
-.header-nav {
-  @media screen and (min-width: $desktop-adapt) {
-
-  
-  }
 }
 
 .header-contact {
@@ -65,16 +62,24 @@
     }
   }
 
-.header { 
+.header {
+  
+  top: 0;
+  
+  position: sticky;
+  
+  background-color: #ffffff;
+  z-index: 1;
+  
   margin: 0 auto;
   overflow: hidden;
 
   @media screen and (min-width: $tablet-adapt) {
     height: 80px;
-    width: 768px;
+    width: 100%;
   };
   @media screen and (min-width: $desktop-adapt) {
-    width: 1200px;
+    width: 100%;
 
   };
   
@@ -111,9 +116,13 @@
 
     @media screen and (min-width: $mobile-adapt) {
       width: 480px;
+      
 
 
     }
+
+
+    
     @media screen and (min-width: $tablet-adapt) {
 width: 768px;
     }

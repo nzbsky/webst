@@ -1,4 +1,5 @@
 .menu-container {
+    // visibility: hidden;
     position: fixed;
     top: 0;
     left: 0;
@@ -16,8 +17,12 @@
 
 
 .menu-container.is-open {
+    z-index: 2;
+    // visibility: visible;
     transform: translateX(0);
 }
+
+
 
 .menu-toggle {
     display: none;
@@ -45,25 +50,29 @@
     justify-content: start;
 }
 
+.mobile-menu__item:hover {
+    color: $blue-color;
+}
+
 .mobile-menu__item--link--current {
     color: $blue-color;
     margin-bottom: 35px;
-        font-size: 40px;
+        font-size: 35px;
         font-weight: 500;
         line-height: 47px;
         letter-spacing: 2%;
-        margin-top: 38px;
+        margin-top: 30px;
         margin-left: 40px;
 }
 
 .mobile-menu__item--link {
     color: $black-color;
     margin-bottom: 35px;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 500;
     line-height: 47px;
     letter-spacing: 2%;
-    margin-top: 38px;
+    margin-top: 30px;
     margin-left: 40px;
 }
 
@@ -71,22 +80,29 @@
 .mobile-menu__item--nav {
     color: $black-color;
         margin-bottom: 20px;
-        font-size: 40px;
+        font-size: 30px;
         font-weight: 500;
         line-height: 47px;
         letter-spacing: 2%;
-        margin-top: 38px;
+        margin-top: 30px;
         margin-left: 40px;
 }
 
 .mobile-close-btn {
     fill: $black-color;
     display: flex;
+        justify-content: flex-end;
+        align-items: start;
+    
+
 }
 
 .mobile-margin {
-    margin-bottom: 206px;
+    margin-bottom: 126px;
 }
+
+
+
 
 
 .mobile-mail {
